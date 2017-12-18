@@ -581,8 +581,10 @@ ${mediaSql}
 ${dietsSql}
 
 ${ingredientListIdsSql}
+ALTER SEQUENCE ingredient_list RESTART WITH ${users.length + recipes.length};
 
 ${usersSql}
+ALTER SEQUENCE profile_id_seq RESTART WITH ${users.length};
 
 ${catSql}
 
@@ -596,6 +598,7 @@ ${"" /*ingredientCategoriesSql*/}
 ${fridgesSql}
 
 ${recipesSql}
+ALTER SEQUENCE recipe_id_seq RESTART WITH ${recipes.length};
 
 ${menusSql}
 

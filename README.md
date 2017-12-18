@@ -40,6 +40,8 @@ Exemple de requête intéressante, la liste des recettes avec leur nombre d'ingr
 }
 ```
 
+La base est divisée en deux schémas: `api` qui contient toutes les tables et fonctions exposées dans l'API, et `internal` qui contient le reste.
+
 
 ## Frontend
 
