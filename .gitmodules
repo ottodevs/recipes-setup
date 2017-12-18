@@ -1,6 +1,6 @@
 [submodule "frontend"]
-	path = frontend
-	url = git@github.com:sandhose/recipes-frontend.git
+        path = frontend
+        url = https://github.com/sandhose/recipes-frontend.git
 [submodule "api"]
-	path = api
-	url = git@github.com:sandhose/recipes-api.git
+        path = api
+        url = https://github.com/sandhose/recipes-api.git
